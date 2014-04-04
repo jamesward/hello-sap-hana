@@ -14,7 +14,7 @@ The SAP HANA database is a robust cloud database that can easily be combined wit
 2. Create a new application using that template
 
 You should now see the Activator UI for your new application:
-!(s.png)
+![](s.png)
 
 ## Connect to the HANA DB
 
@@ -123,7 +123,7 @@ To run the JavaScript that is compiled from this source edit the `app/views/inde
 
 Now when you open your browser to [http://localhost:9000](http://localhost:9000) the request will be made for the JSON data and then once it returns you should see a nice table containing the transactions from the HANA DB in a table.  It sound look like:
 
-!(f.png)
+![](f.png)
 
 ## Further Learning
 
