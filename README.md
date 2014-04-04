@@ -1,6 +1,6 @@
 # Building Modern Apps with JSON Services and JavaScript UIs using SAP HANA DB & Play Framework
 
-The SAP HANA database is a robust cloud database that can easily be combined with [Play Framework](http://www.playframework.com) to build modern apps.  Today applications UIs are moving to the client-side via JavaScript and mobile clients.  This change requires back-ends to produce structured data instead of HTML markup.  The de-facto standard method of exposing back-end data is through RESTful style JSON services.  In browser UIs are now being built with JavaScript running on the client using frameworks like AngularJS.  Combining a JavaScript UI and RESTful JSON services built with Play Framework & Scala along with the SAP HANA database provides a modern architecture that scales and provides dramatically improved productivity.  This article will walk you through the steps to setup your SAP HANA & Play Framework environments and then build a simple JSON service and JavaScript UI.
+The SAP HANA cloud can easily be combined with [Play Framework](http://www.playframework.com) to build modern apps.  Today applications UIs are moving to the client-side via JavaScript and mobile clients.  This change requires back-ends to produce structured data instead of HTML markup.  The de-facto standard method of exposing back-end data is through RESTful style JSON services.  In browser UIs are now being built with JavaScript running on the client using frameworks like AngularJS.  Combining a JavaScript UI and RESTful JSON services built with Play Framework & Scala along with SAP HANA provides a modern architecture that scales and provides dramatically improved productivity.  This article will walk you through the steps to setup your SAP HANA & Play Framework environments and then build a simple JSON service and JavaScript UI.
 
 ## Setup Your Environment
 
@@ -27,7 +27,7 @@ In the Activator UI, open *Code* and then navigate to the `conf/application.conf
 
 From the SAP HANA Client Developer Edition, copy the `hdbclient/ngdbc.jar` file into a new `lib` directory in the root of your new Play project.
 
-In Activator open *Run* and click *Restart* and now your running Play application should be connected to your SAP HANA database.  Open your Play application in a new browser tab and verify that it runs correctly: [http://localhost:9000](http://localhost:9000)  (Note: If there were any problems connecting to your database you will see those errors in your browser.)
+In Activator open *Run* and click *Restart* and now your running Play application should be connected to SAP HANA.  Open your Play application in a new browser tab and verify that it runs correctly: [http://localhost:9000](http://localhost:9000)  (Note: If there were any problems connecting to your database you will see those errors in your browser.)
 
 ## Build the RESTful JSON service
 
@@ -127,4 +127,4 @@ Now when you open your browser to [http://localhost:9000](http://localhost:9000)
 
 ## Further Learning
 
-Congratulations!  You've created a modern application that uses Play Framework, Scala, CoffeeScript, and jQuery for a JSON service and JavaScript UI along with connecting to a SAP HANA cloud database.  To learn more about Play Framework check out the [documentation](http://www.playframework.com/documentation/2.2.x/Home) and explore the other Play template in Activator.
+Congratulations!  You've created a modern application that uses Play Framework, Scala, CoffeeScript, and jQuery for a JSON service and JavaScript UI along with connecting to the SAP HANA cloud.  To learn more about Play Framework check out the [documentation](http://www.playframework.com/documentation/2.2.x/Home) and explore the other Play template in Activator.
